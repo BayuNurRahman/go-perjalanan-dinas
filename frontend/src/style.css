@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+/* =====================================================
+   THEME SYSTEM
+   Light / Dark / System / Custom Gradient
+   =====================================================
+   Strategy: Override Tailwind's generated utility-class
+   colors using descendant selectors under [data-theme].
+   Dark theme is the default (no attribute needed).
+   ===================================================== */
+
+:root {
+  /* Default (Dark) palette — matches Tailwind slate defaults */
+  --t-bg-body:      #020617;
+  --t-bg-card:      #0f172a;
+  --t-bg-input:     #1e293b;
+  --t-bg-input-h:   #334155;
+  --t-border:       #1e293b;
+  --t-border-card:  #1e293b;
+  --t-text:         #f1f5f9;
+  --t-text-white:   #ffffff;
+  --t-text-muted:   #94a3b8;
+  --t-text-muted-l: #cbd5e1;
+  --t-text-heading: #ffffff;
+}
+
+/* ───── Light Theme ───── */
+[data-theme="light"] {
+  --t-bg-body:      #f1f5f9;
+  --t-bg-card:      #ffffff;
+  --t-bg-input:     #e2e8f0;
+  --t-bg-input-h:   #cbd5e1;
+  --t-border:       #cbd5e1;
+  --t-border-card:  #e2e8f0;
+  --t-text:         #0f172a;
+  --t-text-white:   #0f172a;
+  --t-text-muted:   #475569;
+  --t-text-muted-l: #64748b;
+  --t-text-heading: #0f172a;
+}
+
+/* ───── Custom Gradient Theme ───── */
+[data-theme="custom"] {
+  --t-bg-body:      transparent;
+  --t-bg-card:      rgba(15, 23, 42, 0.55);
+  --t-bg-input:     rgba(255, 255, 255, 0.07);
+  --t-bg-input-h:   rgba(255, 255, 255, 0.12);
+  --t-border:       rgba(255, 255, 255, 0.1);
+  --t-border-card:  rgba(255, 255, 255, 0.08);
+  --t-text:         #f1f5f9;
+  --t-text-white:   #ffffff;
+  --t-text-muted:   #cbd5e1;
+  --t-text-muted-l: #e2e8f0;
+  --t-text-heading: #ffffff;
+}
+
+/* ==========================
+   Base element overrides
+   ========================== */
+@layer base {
+  * { @apply box-border; }
+
+  body {
+    background: var(--bg-main-gradient, var(--t-bg-body)) !important;
+    color: var(--t-text);
+    @apply font-sans antialiased min-h-screen;
+    background-attachment: fixed;
+  }
+
+  /* Smooth transitions when switching themes */
+  body, aside, header, main, div, td, th, tr,
+  nav, section, article, span, p, h1, h2, h3, h4, input, select, textarea, button {
+    transition: background-color 0.3s ease, color 0.25s ease, border-color 0.3s ease;
+  }
+}
+
+/* ================================================================
+   Utility-class overrides  — applied when a [data-theme] is set.
+   We scope to [data-theme] so the dark defaults keep working
+   without any attribute at all.
+   ================================================================ */
+
+/* ── Backgrounds ── */
+[data-theme] .bg-slate-950  { background-color: var(--t-bg-body)   !important; }
+[data-theme] .bg-slate-900  { background-color: var(--t-bg-card)   !important; }
+[data-theme] .bg-slate-800  { background-color: var(--t-bg-input)  !important; }
+[data-theme] .bg-slate-700  { background-color: var(--t-bg-input-h)!important; }
+
+/* hover variants */
+[data-theme] .hover\:bg-slate-800:hover  { background-color: var(--t-bg-input-h) !important; }
+[data-theme] .hover\:bg-slate-700:hover  { background-color: var(--t-bg-input-h) !important; }
+
+/* partial-opacity bg helpers used in tables / rows */
+[data-theme] .bg-slate-800\/60  { background-color: color-mix(in srgb, var(--t-bg-input) 60%, transparent) !important; }
+[data-theme] .bg-slate-800\/40  { background-color: color-mix(in srgb, var(--t-bg-input) 40%, transparent) !important; }
+[data-theme] .hover\:bg-slate-800\/40:hover { background-color: color-mix(in srgb, var(--t-bg-input) 40%, transparent) !important; }
+
+/* ── Borders ── */
+[data-theme] .border-slate-800 { border-color: var(--t-border-card) !important; }
+[data-theme] .border-slate-700 { border-color: var(--t-border)      !important; }
+[data-theme] .divide-slate-800 > :not(:last-child) { border-color: var(--t-border-card) !important; }
+[data-theme] .hover\:border-slate-700:hover { border-color: var(--t-border) !important; }
+
+/* ── Text ── */
+[data-theme] .text-white      { color: var(--t-text-white)   !important; }
+[data-theme] .text-slate-100  { color: var(--t-text)         !important; }
+[data-theme] .text-slate-200  { color: var(--t-text)         !important; }
+[data-theme] .text-slate-300  { color: var(--t-text-muted-l) !important; }
+[data-theme] .text-slate-400  { color: var(--t-text-muted)   !important; }
+[data-theme] .text-slate-500  { color: var(--t-text-muted)   !important; }
+
+/* hover text */
+[data-theme] .hover\:text-white:hover { color: var(--t-text-white) !important; }
+
+/* ── Placeholder ── */
+[data-theme] .placeholder-slate-500::placeholder { color: var(--t-text-muted) !important; }
+
+/* ── Input field overrides (scoped styles in components) ── */
+[data-theme] .input-field {
+  background-color: var(--t-bg-input) !important;
+  border-color: var(--t-border) !important;
+  color: var(--t-text-white) !important;
+}
+[data-theme] .input-field:focus {
+  border-color: #3b82f6 !important;
+}
+
+/* ── Sidebar overrides ── */
+[data-theme] aside.fixed {
+  background-color: var(--t-bg-card) !important;
+  border-color: var(--t-border-card) !important;
+}
+
+/* ── Top navbar / header override ── */
+[data-theme] header.sticky,
+[data-theme] header.h-16 {
+  background-color: var(--t-bg-card) !important;
+  border-color: var(--t-border-card) !important;
+}
+
+/* ── Skeleton loader pulse for light ── */
+[data-theme="light"] .animate-pulse {
+  background-color: #e2e8f0 !important;
+}
+
+/* ── Custom theme: glassmorphism for sidebar & header ── */
+[data-theme="custom"] aside.fixed {
+  background-color: rgba(15, 23, 42, 0.7) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+[data-theme="custom"] header.sticky,
+[data-theme="custom"] header.h-16 {
+  background-color: rgba(15, 23, 42, 0.6) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* ── Select field background ── */
+[data-theme] .select-field {
+  background-color: var(--t-bg-input) !important;
+  color: var(--t-text-muted-l) !important;
+}
+
+/* ── Light theme: make card shadows visible ── */
+[data-theme="light"] .shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* ── Light theme: status badge readability ── */
+[data-theme="light"] .bg-blue-600\/20 {
+  background-color: rgba(37, 99, 235, 0.15) !important;
+}
+
+/* ── Dashed border overrides for dropzone ── */
+[data-theme] .border-dashed.border-slate-700 {
+  border-color: var(--t-border) !important;
+}
+[data-theme] .hover\:border-blue-500:hover {
+  border-color: #3b82f6 !important;
+}
+
+/* ── Toast notification overrides ── */
+[data-theme] .bg-green-500\/20 { background-color: rgba(34, 197, 94, 0.2) !important; }
+[data-theme] .bg-red-500\/20   { background-color: rgba(239, 68, 68, 0.2)  !important; }

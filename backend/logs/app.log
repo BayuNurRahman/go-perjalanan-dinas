@@ -1,0 +1,611 @@
+{"time":"2026-07-10T00:02:51.6678923+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T00:02:51.8179346+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T00:05:57.4550837+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-10T00:05:57.4550837+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":77349400,"client_ip":"::1"}
+{"time":"2026-07-10T00:05:57.6892609+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":14866800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:05:57.7829218+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":102083300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:06:19.6997623+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5207100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:06:21.3549886+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":5794100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:06:21.3554977+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":2986800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:06:34.2353105+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4315500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:06:51.9938649+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3734400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:06:51.9967389+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4138200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:06:52.7907547+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5624600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:06:53.6233286+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":5976300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:06:53.6265679+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4502500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:10:36.3637828+07:00","level":"ERROR","msg":"Gagal membuat perjalanan dinas","user_id":10,"destination":"Bandung","error":"Tanggal selesai tidak boleh sebelum tanggal mulai"}
+{"time":"2026-07-10T00:10:36.3637828+07:00","level":"ERROR","msg":"Request selesai","method":"POST","path":"/api/v1/trips/","status":500,"latency":3199900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:10:47.9937956+07:00","level":"INFO","msg":"Perjalanan dinas berhasil dibuat","trip_id":7,"user_id":10,"destination":"Bandung"}
+{"time":"2026-07-10T00:10:47.9945188+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/trips/","status":201,"latency":12394200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:10:48.0546452+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7518700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:10:51.5032943+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6744000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:10:51.5068782+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":4338500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:10:54.0348745+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":8189600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:10:59.648801+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5047000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:11:01.0971682+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":5332400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:11:01.0984474+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4294800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:11:15.446614+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":9580400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:11:15.4472599+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":10226300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:11:21.8391236+07:00","level":"INFO","msg":"Logout berhasil","user_id":10}
+{"time":"2026-07-10T00:11:21.8391236+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":10457100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T00:13:29.8362634+07:00","level":"INFO","msg":"Login berhasil","user_id":9,"email":"yuna@manager.com","role":"MANAGER"}
+{"time":"2026-07-10T00:13:29.8372601+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":63917600,"client_ip":"::1"}
+{"time":"2026-07-10T00:13:29.9596376+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":8779500,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:13:29.9711739+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":11536300,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:13:38.5934266+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":10717200,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:13:41.0580031+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":4518800,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:14:02.5596413+07:00","level":"WARN","msg":"Request selesai","method":"PATCH","path":"/api/v1/trips/undefined/status","status":400,"latency":1516700,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:14:16.0000878+07:00","level":"WARN","msg":"Request selesai","method":"PATCH","path":"/api/v1/trips/undefined/status","status":400,"latency":1702600,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:14:16.551219+07:00","level":"WARN","msg":"Request selesai","method":"PATCH","path":"/api/v1/trips/undefined/status","status":400,"latency":1527400,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:14:16.8416561+07:00","level":"WARN","msg":"Request selesai","method":"PATCH","path":"/api/v1/trips/undefined/status","status":400,"latency":1410100,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:14:17.2962233+07:00","level":"WARN","msg":"Request selesai","method":"PATCH","path":"/api/v1/trips/undefined/status","status":400,"latency":2904700,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:14:17.9105682+07:00","level":"WARN","msg":"Request selesai","method":"PATCH","path":"/api/v1/trips/undefined/status","status":400,"latency":2541700,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:14:22.2661297+07:00","level":"INFO","msg":"Logout berhasil","user_id":9}
+{"time":"2026-07-10T00:14:22.266841+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":9809400,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T00:32:37.2827396+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T00:32:37.4498555+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T00:53:23.7695022+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T00:53:23.8270725+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:11:20.9138211+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T01:11:20.9521903+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:13:46.2493822+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T01:13:46.2915331+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:14:48.1296187+07:00","level":"WARN","msg":"Login gagal","email":"jiwo@employee.com","error":"Email tidak terdaftar"}
+{"time":"2026-07-10T01:14:48.1296187+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":4111600,"client_ip":"::1"}
+{"time":"2026-07-10T01:14:57.062405+07:00","level":"WARN","msg":"Login gagal","email":"jiwo@employee.com","error":"Email tidak terdaftar"}
+{"time":"2026-07-10T01:14:57.062405+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":3168000,"client_ip":"::1"}
+{"time":"2026-07-10T01:15:06.4223074+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-10T01:15:06.4223074+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":70505700,"client_ip":"::1"}
+{"time":"2026-07-10T01:15:06.63635+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":18362200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:06.7042551+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":79524800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:26.6958082+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4741300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:30.3906507+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4625000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:30.3929012+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":2788800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:37.347761+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7711800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:39.0279252+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":6623800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:39.0312453+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7041600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:40.1140074+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7404200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:42.7605491+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7184100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:42.7605491+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":2934200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:45.4547116+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5961500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:50.6095178+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6432000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:52.9896917+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":2739200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:52.9919398+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6254500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:54.7929082+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4914200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:58.5712984+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7872300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:59.2824+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":7798900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:15:59.2840058+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4610700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:16:01.9626803+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6060600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:16:03.9186667+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5692000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:16:03.9196994+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":2502300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:16:06.1396067+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7650200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:19:29.0699559+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T01:19:29.1106777+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:19:38.8801554+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T01:19:38.9200293+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:19:42.9749651+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T01:19:43.0452259+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:20:41.690584+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T01:20:41.7584273+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:23:13.6644404+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":11696000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:17.100814+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":3465100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:17.1019184+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4569500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:20.637255+07:00","level":"INFO","msg":"Logout berhasil","user_id":10}
+{"time":"2026-07-10T01:23:20.637255+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":12299800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:30.376484+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-10T01:23:30.3776098+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":102727900,"client_ip":"::1"}
+{"time":"2026-07-10T01:23:30.4739077+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3652800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:30.4837741+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7780500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:35.7995694+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":2408000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:35.7995694+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4160100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:37.607306+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5454000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:40.6807138+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":3515700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:40.6821632+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7423500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:43.4853743+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6844400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:46.7905984+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":9473400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:46.7905984+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3788300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:49.398713+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6202000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:49.398713+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":2575500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:23:50.9003805+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4677200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:01.0582175+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":3778500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:01.0582175+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7405600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:05.407651+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4229500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:11.1681019+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":2838100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:11.1681019+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7792100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:20.4043014+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7199900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:36.2347229+07:00","level":"INFO","msg":"Logout berhasil","user_id":10}
+{"time":"2026-07-10T01:24:36.2347229+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":11269400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:47.1721986+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-10T01:24:47.1721986+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":67788500,"client_ip":"::1"}
+{"time":"2026-07-10T01:24:47.2070877+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":4598400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:47.2148662+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6713800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:49.5503383+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":1118200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:49.5540669+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":9188700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:51.304285+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7042400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:59.2406566+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":515600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:24:59.243126+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6788400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:29:33.5325706+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T01:29:33.5874228+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:30:15.2323312+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":7978800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:30:15.2328398+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6295600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:30:26.2734051+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4863600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:30:28.2419976+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/undefined","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T01:30:28.2500124+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":5721100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:30:29.8271032+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5521800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:30:31.2627795+07:00","level":"INFO","msg":"Logout berhasil","user_id":10}
+{"time":"2026-07-10T01:30:31.2635156+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":9229900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:31:13.1337547+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-10T01:31:13.1337547+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":78684800,"client_ip":"::1"}
+{"time":"2026-07-10T01:31:13.2107287+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":6509400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:31:13.2142825+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7810400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:31:18.8951802+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/undefined","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T01:31:18.9073661+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/undefined","status":400,"latency":5472700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:31:20.2946038+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7889800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:31:26.7316196+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7935300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:31:30.6515276+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5738100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:31:39.0327072+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7585900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:36:09.5484343+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T01:36:09.5942659+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:36:40.9756776+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T01:36:41.0326237+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:37:48.023928+07:00","level":"INFO","msg":"Perjalanan dinas berhasil dibuat","trip_id":15,"user_id":10,"destination":"Jakarta"}
+{"time":"2026-07-10T01:37:48.0244583+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/trips/","status":201,"latency":18671200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:37:48.0866496+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":14575000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:37:50.0407182+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T01:37:50.0542593+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":8654900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:37:51.5582747+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5265800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:37:53.3586825+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/7","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T01:37:53.3673101+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":4309300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:37:55.1628052+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7575400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:37:58.0508391+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/7","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T01:37:58.0623003+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":5418500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:39:35.9848461+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T01:39:36.0865856+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T01:40:05.0375099+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/7","status":200,"latency":32180100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:40:05.1073706+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":93485400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:42:22.3346954+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":12787500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:42:22.3438857+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/7","status":200,"latency":22490800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:42:51.309373+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/7","status":200,"latency":10963600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:42:51.3099506+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":6581600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:42:52.5874987+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":5732000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:42:52.5881125+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/7","status":200,"latency":11127900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:43:00.873762+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":12909500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:43:03.4916392+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":8272000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:43:03.492754+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":6192300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:43:05.9160135+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5385300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:43:32.8362353+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5823600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:44:23.6764437+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":12105000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:44:23.6933805+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3155300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:44:23.6959794+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":5754200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:44:28.0601846+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6615400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:45:01.4514901+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":9224600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:45:26.4874976+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4887200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:45:26.5052742+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3152600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:45:26.5067319+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":3954500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:45:28.0204804+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4958300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:45:31.5476778+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":8056200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:46:01.5028734+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7660700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:46:01.5207628+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3038300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:46:01.5227957+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":4008200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:46:02.8113753+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5881600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:47:36.7109979+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7958800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:48:30.7749096+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":9219500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:48:34.0163469+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7133400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:49:01.2336207+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":13277900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:49:01.2421565+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":9112000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:49:05.3038398+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5077900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:49:06.0086256+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":4304800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:49:06.0118189+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4938600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:52:13.9515527+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":7745400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:52:13.952654+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":8846700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:52:26.1702094+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":8780100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:52:29.1039025+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":5303300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:52:29.1093079+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4896200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:52:57.2372066+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":10545000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:52:57.2393012+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":9542200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:52:58.007899+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":5269600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:52:58.0110048+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5006700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:54:45.1058979+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7535900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:54:45.106969+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":9115600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:54:46.8806132+07:00","level":"INFO","msg":"Logout berhasil","user_id":10}
+{"time":"2026-07-10T01:54:46.8806132+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":9209300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:54:55.2197086+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-10T01:54:55.2207774+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":80390100,"client_ip":"::1"}
+{"time":"2026-07-10T01:54:55.2582886+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3916400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:54:55.2622863+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5087500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:55:04.2393953+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":11576600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:55:04.2497064+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6615700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:55:05.0418489+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":4205000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:55:05.0429187+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4764600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:56:09.8654621+07:00","level":"INFO","msg":"Logout berhasil","user_id":10}
+{"time":"2026-07-10T01:56:09.8654621+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":6563000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:59:42.7246231+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-10T01:59:42.7252304+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":70464100,"client_ip":"::1"}
+{"time":"2026-07-10T01:59:42.7870579+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3814800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:59:42.7906431+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4908700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:59:47.4296729+07:00","level":"INFO","msg":"Logout berhasil","user_id":10}
+{"time":"2026-07-10T01:59:47.4301018+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":11531700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:59:54.5753609+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-10T01:59:54.5753609+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":76792900,"client_ip":"::1"}
+{"time":"2026-07-10T01:59:54.6155625+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":4624200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:59:54.6198271+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6084200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T01:59:56.101019+07:00","level":"INFO","msg":"Logout berhasil","user_id":10}
+{"time":"2026-07-10T01:59:56.1014031+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":7932800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T02:00:12.1498323+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-10T02:00:12.1498323+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":75014200,"client_ip":"::1"}
+{"time":"2026-07-10T02:00:12.208773+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":9562400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T02:00:12.211666+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":12455400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T02:00:53.6063071+07:00","level":"INFO","msg":"Logout berhasil","user_id":10}
+{"time":"2026-07-10T02:00:53.6067596+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":8802700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T02:01:01.3232535+07:00","level":"INFO","msg":"Login berhasil","user_id":9,"email":"yuna@manager.com","role":"MANAGER"}
+{"time":"2026-07-10T02:01:01.3247644+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":67108900,"client_ip":"::1"}
+{"time":"2026-07-10T02:01:01.4234498+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":6254000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:01:01.4293913+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":5432000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:01:09.8855744+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/team-distribution","status":200,"latency":6258700,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:01:16.4040001+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":8261100,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:01:16.4072257+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":8383100,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:01:20.6954757+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":4739800,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:01:20.6981525+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":403,"latency":4648100,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:01:40.3931492+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":6693200,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:01:40.3968739+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":8230000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:01:59.519932+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":5204600,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:01:59.5239088+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":7901100,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:04:04.5897521+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":9358000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:04:04.5965098+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":14485400,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T02:04:09.1647001+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/1783622268010595100-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":200,"latency":127523000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T12:53:09.3583761+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T12:53:09.3880951+07:00","level":"ERROR","msg":"Gagal terhubung ke database","error":"failed to connect to `user=postgres database=Traveldb`:\n\t[::1]:5434 (localhost): dial error: dial tcp [::1]:5434: connectex: No connection could be made because the target machine actively refused it.\n\t127.0.0.1:5434 (localhost): dial error: dial tcp 127.0.0.1:5434: connectex: No connection could be made because the target machine actively refused it."}
+{"time":"2026-07-10T12:58:07.9106894+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T12:58:07.984869+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T12:58:41.2937812+07:00","level":"INFO","msg":"Login berhasil","user_id":9,"email":"yuna@manager.com","role":"MANAGER"}
+{"time":"2026-07-10T12:58:41.2937812+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":56121200,"client_ip":"::1"}
+{"time":"2026-07-10T12:58:41.4632886+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":9206200,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T12:58:41.4913974+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":33512200,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T12:58:46.7935824+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":6122200,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T12:58:46.7979418+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":10481600,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:01:16.6535623+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":3986700,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:01:16.6557893+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":6213700,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:36.7434101+07:00","level":"INFO","msg":"Status perjalanan dinas berhasil diperbarui","trip_id":15,"status":"APPROVED","role":"MANAGER"}
+{"time":"2026-07-10T13:02:36.7434101+07:00","level":"INFO","msg":"Request selesai","method":"PATCH","path":"/api/v1/trips/15/status","status":200,"latency":491365800,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:40.7032412+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":5283000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:40.8491729+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":403,"latency":148133700,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:42.2565612+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":5486100,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:42.2591335+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":6020100,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:46.9904581+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":5718800,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:48.5624093+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/team-distribution","status":200,"latency":6704000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:49.8338992+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":5938200,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:51.7314125+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":5464600,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:51.7344556+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":5587000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:02:53.5449839+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/team-distribution","status":200,"latency":5767000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:03:13.3790965+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":403,"latency":598200,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:03:13.3816126+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":6498200,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:04:15.7779322+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":5002300,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:04:15.7785887+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":5153500,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:06:47.8860538+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T13:06:47.9174069+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T13:07:09.5562709+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":10550000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T13:07:09.5767573+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":31036400,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T18:37:53.917996+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T18:37:53.955421+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T18:38:09.7746094+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":215548600,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T18:38:09.7908837+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/dashboard","status":200,"latency":4769900,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T18:38:09.795201+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":236140200,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T18:38:09.8079352+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":9721400,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T18:41:23.7715806+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/team-distribution","status":200,"latency":35345000,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T18:41:40.8214884+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/manager/applications","status":200,"latency":6525300,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T18:42:06.8281787+07:00","level":"INFO","msg":"Logout berhasil","user_id":9}
+{"time":"2026-07-10T18:42:06.8281787+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":353867200,"client_ip":"::1","user_id":9}
+{"time":"2026-07-10T18:42:17.8921738+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-10T18:42:17.8921738+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":214539400,"client_ip":"::1"}
+{"time":"2026-07-10T18:42:18.0146547+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":5192700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:42:18.0226889+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":8948000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:42:27.5013777+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":14490800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:42:27.5035771+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":17267100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:42:51.4850306+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5792500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:42:51.5021534+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":4261800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:42:51.5021534+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3741300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:09.5805355+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5865100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:13.9933521+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":2911700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:13.9952858+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/7","status":200,"latency":7182700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:28.4799313+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":4641500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:28.4821146+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4603400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:33.3428139+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3001100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:33.3428139+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":4752800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:36.2889322+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":4605100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:36.2918323+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5207600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:38.7200828+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":2965200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:43:38.7212433+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/7","status":200,"latency":6804000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:49:07.3780641+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T18:49:07.4068843+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T18:49:15.3579109+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T18:49:15.3888764+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T18:49:28.2484578+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-10T18:49:28.2743763+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-10T18:50:35.0311125+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/7","status":200,"latency":9341600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:51:26.471191+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":10878500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:51:26.5430466+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":80060000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:51:36.3007709+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4862600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:51:41.9844934+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/7","status":200,"latency":6990400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:51:51.0252287+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5409400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:51:51.0424243+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":3927800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:51:51.0424243+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3927800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:51:53.7919233+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4534700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:52:06.027457+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6492200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:52:13.948843+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":4297600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:53:06.88058+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/E:/Materi Kuliah/Kursus Juara Coding/Golang/TA/go-perjalanan-dinas/backend/uploads/trips/user-10/1783622268010595100-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T18:53:09.4286467+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/E:/Materi Kuliah/Kursus Juara Coding/Golang/TA/go-perjalanan-dinas/backend/uploads/trips/user-10/1783622268010595100-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T18:53:10.9782809+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/E:/Materi Kuliah/Kursus Juara Coding/Golang/TA/go-perjalanan-dinas/backend/uploads/trips/user-10/1783622268010595100-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T18:53:11.7620745+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/E:/Materi Kuliah/Kursus Juara Coding/Golang/TA/go-perjalanan-dinas/backend/uploads/trips/user-10/1783622268010595100-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T18:53:12.4285514+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/E:/Materi Kuliah/Kursus Juara Coding/Golang/TA/go-perjalanan-dinas/backend/uploads/trips/user-10/1783622268010595100-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T18:53:16.1259665+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/E:/Materi Kuliah/Kursus Juara Coding/Golang/TA/go-perjalanan-dinas/backend/uploads/trips/user-10/1783622268010595100-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T18:53:18.1882181+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/E:/Materi Kuliah/Kursus Juara Coding/Golang/TA/go-perjalanan-dinas/backend/uploads/trips/user-10/1783622268010595100-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":404,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-10T18:53:57.8076203+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":4216100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:54:27.2713878+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/1783622268010595100-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":200,"latency":212785900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:54:29.942075+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":3927200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:55:34.9732328+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":5334800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:59:31.5969086+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7152500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:59:31.6094411+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":2915700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:59:31.612487+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":3647100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-10T18:59:33.2071767+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5264200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:09:09.547659+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T00:09:09.6184112+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T00:12:31.2931291+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":12442800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:12:37.5526535+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6708200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:12:39.4627195+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":47188500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:12:39.567018+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":151487000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:13:39.0051573+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":43826600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:13:43.201397+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/1783622268010595100-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":304,"latency":111490000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:13:54.8473759+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5619500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:18:37.6736867+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T00:18:37.7060096+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T00:18:40.8289764+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T00:18:40.8561399+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T00:29:59.7138679+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":9932500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:30:20.934549+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":8006700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:39:17.0000462+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T00:39:17.0310811+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T00:39:31.3467293+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T00:39:31.3866757+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T00:39:34.476434+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T00:39:34.5081376+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T00:40:25.6191904+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":7338000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:41:55.2339395+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":7196000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:44:24.0444466+07:00","level":"INFO","msg":"Status perjalanan dinas berhasil diperbarui","trip_id":15,"status":"ON_DUTY","role":"EMPLOYEE"}
+{"time":"2026-07-11T00:44:24.0444466+07:00","level":"INFO","msg":"Request selesai","method":"PATCH","path":"/api/v1/trips/15/status","status":200,"latency":16505400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:52:46.2749439+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":5304900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:57:54.9436171+07:00","level":"INFO","msg":"Status perjalanan dinas berhasil diperbarui","trip_id":15,"status":"COMPLETED","role":"EMPLOYEE"}
+{"time":"2026-07-11T00:57:54.9436171+07:00","level":"INFO","msg":"Request selesai","method":"PATCH","path":"/api/v1/trips/15/status","status":200,"latency":65080500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:57:57.3706853+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/1783706274934214600-Surat Tugas Karo Humas.pdf","status":200,"latency":128065000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:58:09.1418298+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/1783706274934214600-Surat Tugas Karo Humas.pdf","status":304,"latency":6732500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:58:21.0964209+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/1783706274934214600-Surat Tugas Karo Humas.pdf","status":304,"latency":3612300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T00:58:46.0425599+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/1783706274934214600-Surat Tugas Karo Humas.pdf","status":304,"latency":4085600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:00:18.4428651+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":3288900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:02:10.339489+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/1783706274934214600-Surat Tugas Karo Humas.pdf","status":304,"latency":8283600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:02:36.4416234+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15/files/1783706274934214600-Surat Tugas Karo Humas.pdf","status":304,"latency":9108400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:07:10.089106+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T01:07:10.1208499+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T01:09:20.7720152+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":16007100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:09:20.7891697+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3816800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:09:20.8246529+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":38779600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:09:23.7850972+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":10414700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:09:29.3450611+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3904000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:09:29.3480388+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":6881700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:22:18.5365716+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T01:22:18.5701637+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T01:22:27.2406179+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7867700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:23:28.3664252+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":7730600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:23:28.3937064+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":35011800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:24:06.7096271+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/claims/","status":400,"latency":1821500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:24:39.0927739+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":7179900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:26:23.110474+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":6239700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:26:23.1115497+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":7903500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:28:19.0467346+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T01:28:19.0467346+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":71684200,"client_ip":"::1"}
+{"time":"2026-07-11T01:28:31.527377+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T01:28:31.527377+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":65787000,"client_ip":"::1"}
+{"time":"2026-07-11T01:28:45.8083325+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T01:28:45.8083325+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":71569000,"client_ip":"::1"}
+{"time":"2026-07-11T01:29:17.3893211+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T01:29:17.3893211+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":65914700,"client_ip":"::1"}
+{"time":"2026-07-11T01:29:38.1676921+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T01:29:38.1676921+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":64707100,"client_ip":"::1"}
+{"time":"2026-07-11T01:29:55.088196+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T01:29:55.088196+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":64855200,"client_ip":"::1"}
+{"time":"2026-07-11T01:30:10.5388728+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T01:30:10.5388728+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":61858000,"client_ip":"::1"}
+{"time":"2026-07-11T01:30:28.057001+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-11T01:30:28.057001+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":64163400,"client_ip":"::1"}
+{"time":"2026-07-11T01:30:28.1115377+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3366900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:30:28.1147974+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4908100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:30:33.6802281+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":6254700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:30:38.7183372+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5634700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:30:38.7346401+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3512700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:30:38.7356794+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":4028800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:30:40.3562691+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6240400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:30:42.7613741+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":4375600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:30:42.7631022+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":6103700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:34:43.1967788+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":4638000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:34:43.1973269+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4605800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:34:48.8094709+07:00","level":"INFO","msg":"Logout berhasil","user_id":10}
+{"time":"2026-07-11T01:34:48.8100869+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/logout","status":200,"latency":15198900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:35:04.92383+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-11T01:35:04.9244307+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":69973400,"client_ip":"::1"}
+{"time":"2026-07-11T01:35:04.9399099+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3296700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:35:04.9409984+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4385200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:35:12.3413451+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4380200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:35:12.3418826+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":4917700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:35:20.5457918+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4116900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:35:37.6247064+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":4004000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:35:37.6273864+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":7806200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:36:31.1297889+07:00","level":"INFO","msg":"Klaim berhasil diajukan","claim_id":16,"user_id":10,"trip_id":15,"amount":1000000}
+{"time":"2026-07-11T01:36:31.1297889+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/claims/","status":201,"latency":10521900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:39:43.5466195+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3367300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:39:47.969403+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":4165000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:39:47.9713415+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":6103500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:24.1206017+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3257900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:24.9033458+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":2183100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:25.0651205+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3257600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:25.2610779+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3254300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:25.4158833+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":2771100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:25.5848486+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":2256500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:25.7587525+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":2613900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:25.95701+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":2235700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:26.1120069+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":2297700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:26.2833866+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":2795600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:26.5096532+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":2441900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:29.3228081+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":4665800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:40:29.3240916+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":5949300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:42:52.3304321+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T01:42:52.3665452+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T01:43:51.6750051+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":10596700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:43:52.1129958+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3308100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:43:59.8662927+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3731400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:44:01.6626648+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":10554500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:44:01.683996+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":31885700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:44:19.7417452+07:00","level":"INFO","msg":"Klaim berhasil diajukan","claim_id":18,"user_id":10,"trip_id":15,"amount":113211}
+{"time":"2026-07-11T01:44:19.7417452+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/claims/","status":201,"latency":15834100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:44:22.6577812+07:00","level":"INFO","msg":"Klaim berhasil diajukan","claim_id":19,"user_id":10,"trip_id":15,"amount":113211}
+{"time":"2026-07-11T01:44:22.6577812+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/claims/","status":201,"latency":14264300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:45:06.4220504+07:00","level":"INFO","msg":"Klaim berhasil diajukan","claim_id":20,"user_id":10,"trip_id":15,"amount":113211}
+{"time":"2026-07-11T01:45:06.4220504+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/claims/","status":201,"latency":6723900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:45:07.4031419+07:00","level":"INFO","msg":"Klaim berhasil diajukan","claim_id":21,"user_id":10,"trip_id":15,"amount":113211}
+{"time":"2026-07-11T01:45:07.4057877+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/claims/","status":201,"latency":7136700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:46:07.0798146+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6763600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:46:32.1211112+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4188200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:46:33.3476934+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3601400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:46:33.3490609+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":5695600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:46:51.6206188+07:00","level":"INFO","msg":"Klaim berhasil diajukan","claim_id":22,"user_id":10,"trip_id":15,"amount":123456}
+{"time":"2026-07-11T01:46:51.6206188+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/claims/","status":201,"latency":105550900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:46:51.6683726+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3914300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:46:51.6826966+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":2372900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:46:51.6842922+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":3968500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:47:05.0014819+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/22/files/1783709211614969700-WhatsApp Image 2026-07-08 at 17.37.09.jpeg","status":200,"latency":92724900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:51:55.4667361+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T01:51:55.4983305+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T01:51:59.1965308+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T01:51:59.2256226+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T01:52:03.4037959+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":8678100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:52:03.4098496+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3140800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:52:03.4175023+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3893700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:52:03.4302069+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":22852900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:52:03.4338032+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":20194600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:52:44.0973909+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4012000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:52:44.1071985+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/7","status":200,"latency":3710400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:52:44.1087057+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":5217600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:55:18.949755+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/22","status":200,"latency":9987500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:55:18.9685155+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":5499600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:55:18.9690519+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3991700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:55:18.9796088+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/claims/trip/15","status":200,"latency":3397100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:55:18.9833889+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/15","status":200,"latency":9657500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T01:55:53.5758234+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5144000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:00:11.3478458+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3462000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:00:11.3483831+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3999300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:00:11.3672247+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":22334000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:00:17.2540995+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3400700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:00:17.2540995+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3400700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:00:17.2722155+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":21516700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:04:59.3445713+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3378900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:04:59.3445713+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3912700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:04:59.3640474+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":22855000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:15:55.6758634+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3497200,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:15:56.6432976+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3217400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:15:57.5955229+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3737800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T02:15:57.5995875+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5417600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:36:06.4822727+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:36:06.5552347+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:36:23.7432871+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:36:23.768957+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:36:23.768957+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:36:23.7828908+07:00","level":"INFO","msg":"Bucket MinIO berhasil dibuat","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:36:32.0301136+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:36:32.0564598+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:36:32.0569032+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:36:32.0628211+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:36:48.6642355+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:36:48.6894584+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:36:48.6899692+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:36:48.7009999+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:37:30.4190445+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:37:30.451153+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:37:30.4514876+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:37:30.4580157+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:37:39.6340237+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:37:39.6623005+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:37:39.6623005+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:37:39.669515+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:37:53.2628005+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:37:53.2922888+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:37:53.2922888+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:37:53.2993168+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:38:03.9361371+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:38:03.9616861+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:38:03.9626603+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:38:03.9685843+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:38:15.1584044+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:38:15.1845892+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:38:15.1845892+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:38:15.189702+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:38:26.4868018+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:38:26.5116343+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:38:26.5116343+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:38:26.5173006+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:38:55.8236298+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:38:55.8520786+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:38:55.8524602+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:38:55.8574872+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:39:09.8234891+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:39:09.8483805+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:39:09.8483805+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:39:09.8543616+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:39:21.855333+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:39:21.8828561+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:39:21.8828561+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:39:21.8897272+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:41:00.0978947+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:41:00.1238894+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:41:00.1242219+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:41:00.1301735+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:43:13.6261496+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:43:13.6534844+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:43:13.6534844+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:43:13.6581496+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:43:27.5862182+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:43:27.612133+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:43:27.612133+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:43:27.6179286+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:43:40.6923788+07:00","level":"INFO","msg":"Logger berhasil diinisialisasi","file":"logs/app.log"}
+{"time":"2026-07-11T15:43:40.7200951+07:00","level":"INFO","msg":"Koneksi database PostgreSQL berhasil terhubung","host":"localhost","dbname":"Traveldb"}
+{"time":"2026-07-11T15:43:40.7204693+07:00","level":"INFO","msg":"Koneksi MinIO berhasil diinisialisasi","endpoint":"localhost:9000"}
+{"time":"2026-07-11T15:43:40.7273608+07:00","level":"INFO","msg":"Bucket MinIO sudah tersedia","bucket":"perjalanan-dinas"}
+{"time":"2026-07-11T15:45:52.5259312+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":9413700,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:45:52.5460157+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":28344500,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:48:22.7545654+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":5277100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:48:23.2077088+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":2446600,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:52:05.647061+07:00","level":"WARN","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":401,"latency":0,"client_ip":"::1"}
+{"time":"2026-07-11T15:53:36.9053049+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/dashboard","status":200,"latency":3750000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:53:36.9053049+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":3155300,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:55:08.039438+07:00","level":"INFO","msg":"Perjalanan dinas berhasil dibuat","trip_id":27,"user_id":10,"destination":"Surabaya"}
+{"time":"2026-07-11T15:55:08.039438+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/trips/","status":201,"latency":50136000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:55:08.0887589+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4363100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:55:40.3741503+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/27","status":200,"latency":86197000,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:55:58.543318+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/27/files/1783760107993172300-CV ATS.pdf","status":200,"latency":278531100,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:57:41.6742807+07:00","level":"INFO","msg":"Perjalanan dinas berhasil dibuat","trip_id":28,"user_id":10,"destination":"Solo"}
+{"time":"2026-07-11T15:57:41.6742807+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/trips/","status":201,"latency":137401400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:57:41.7153643+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":4434900,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:59:30.2682435+07:00","level":"INFO","msg":"Perjalanan dinas berhasil dibuat","trip_id":29,"user_id":10,"destination":"Surabaya"}
+{"time":"2026-07-11T15:59:30.2687831+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/trips/","status":201,"latency":10849800,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T15:59:30.306132+07:00","level":"INFO","msg":"Request selesai","method":"GET","path":"/api/v1/trips/me","status":200,"latency":6109400,"client_ip":"::1","user_id":10}
+{"time":"2026-07-11T16:09:23.9166637+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T16:09:23.9166637+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":247117000,"client_ip":"::1"}
+{"time":"2026-07-11T16:09:23.9767032+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T16:09:23.9767032+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":56033400,"client_ip":"::1"}
+{"time":"2026-07-11T16:09:24.033237+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T16:09:24.0344138+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":56447900,"client_ip":"::1"}
+{"time":"2026-07-11T16:09:24.1038889+07:00","level":"WARN","msg":"Login gagal","email":"jiwoo@employee.com","error":"Password salah"}
+{"time":"2026-07-11T16:09:24.1038889+07:00","level":"WARN","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":401,"latency":68562900,"client_ip":"::1"}
+{"time":"2026-07-11T16:09:46.207372+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-11T16:09:46.207372+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":175074200,"client_ip":"::1"}
+{"time":"2026-07-11T16:10:07.9857304+07:00","level":"INFO","msg":"Login berhasil","user_id":10,"email":"jiwoo@employee.com","role":"EMPLOYEE"}
+{"time":"2026-07-11T16:10:07.9857304+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/auth/login","status":200,"latency":58489900,"client_ip":"::1"}
+{"time":"2026-07-11T16:10:08.0126386+07:00","level":"INFO","msg":"Perjalanan dinas berhasil dibuat","trip_id":30,"user_id":10,"destination":"Surabaya"}
+{"time":"2026-07-11T16:10:08.0126386+07:00","level":"INFO","msg":"Request selesai","method":"POST","path":"/api/v1/trips/","status":201,"latency":23212900,"client_ip":"::1","user_id":10}
